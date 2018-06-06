@@ -1,0 +1,24 @@
+/******************************************************************************/
+/*                                                                            */
+/*  Tab bar                                                                   */
+/*                                                                            */
+/******************************************************************************/
+
+"acW-dT-cKf.title"  = "Condition";
+"0ka-RM-TXX.title"  = "Journal";
+"cPa-gy-q4n.title"  = "Paramètres";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Settings form                                                             */
+/*                                                                            */
+/******************************************************************************/
+
+"nlc-Ge-nu1.text"   = "Nom d'utilisateur:";
+"7Fx-aa-1Wb.text"   = "Votre nom d'utilisateur szCloud (à partir de votre compte d'utilisateur sur le szCloud).";
+"f17-1N-0GC.text"   = "Nom DNS:";
+"7Gu-G3-saQ.text"   = "Comme un nom DNS vous pouvez donner soit le nom de votre nuage (par exemple royaume.capillatus.net) ou le nom complet d'un hôte dans votre nuage (par exemple reine.royaume.capillatus.net).";
+"JiP-pj-3Kt.text"   = "Passe DDNS:";
+"4jN-Ap-gW4.text"   = "Entrez le mot de passe que vous avez défini comme mot de passe DDNS pour le cloud ou hôte correspondant.
+
+REMARQUE: Pour des raisons de sécurité, nous recommandons que vous utilisez pour votre compte dans szCloud et pour le service DDNS mots de passe différents.";

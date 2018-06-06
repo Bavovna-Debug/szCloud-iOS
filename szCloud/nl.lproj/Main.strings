@@ -1,0 +1,24 @@
+/******************************************************************************/
+/*                                                                            */
+/*  Tab bar                                                                   */
+/*                                                                            */
+/******************************************************************************/
+
+"acW-dT-cKf.title"  = "Toestand";
+"0ka-RM-TXX.title"  = "Journal";
+"cPa-gy-q4n.title"  = "Instellingen";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Settings form                                                             */
+/*                                                                            */
+/******************************************************************************/
+
+"nlc-Ge-nu1.text"   = "Gebruikersnaam:";
+"7Fx-aa-1Wb.text"   = "Uw szCloud gebruikersnaam (van uw gebruikersaccount op szCloud).";
+"f17-1N-0GC.text"   = "DNS-naam:";
+"7Gu-G3-saQ.text"   = "Als een DNS-naam kan u de naam van uw cloud (bijvoorbeeld royaume.capillatus.net) of de volledige naam van een host in uw cloud (bijvoorbeeld reine.royaume.capillatus.net) geven.";
+"JiP-pj-3Kt.text"   = "DDNS wachtwoord:";
+"4jN-Ap-gW4.text"   = "Geef het wachtwoord dat u hebt ingesteld als DDNS wachtwoord voor de bijbehorende cloud of host.
+
+OPMERKING: Om veiligheidsredenen raden wij u voor uw account in szCloud en voor DDNS-service verschillende wachtwoorden te gebruiken.";

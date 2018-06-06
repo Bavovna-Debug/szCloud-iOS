@@ -1,0 +1,10 @@
+/******************************************************************************/
+/*                                                                            */
+/*  szCloud                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"CFBundleDisplayName~iphone"    = "Mon nuage";
+"CFBundleDisplayName~ipad"      = "Mon nuage";

@@ -1,0 +1,27 @@
+/******************************************************************************/
+/*                                                                            */
+/*  szCloud                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"SETTINGS_EDIT_FORM_TITLE"          = "Settings";
+"SETTINGS_CANCEL_BUTTON"            = "Cancel";
+"SETTINGS_SUBMIT_BUTTON"            = "Submit";
+
+"STATUS_COMMUNICATING_NIMBUS"       = "Communicating szCloud...";
+"STATUS_OK"                         = "IP address updated on szCloud on %@ at %@.";
+"STATUS_NIMBUS_ERROR"               = "Cannot connect to «szCloud» (authentication error). Last tried on %@ at %@. Please, check your settings.";
+
+"ALERT_TITLE_CONFIRMATION"          = "Confirm";
+"ALERT_TITLE_WARNING"               = "Warning";
+"ALERT_TITLE_ERROR"                 = "Error";
+"ALERT_BUTTON_CANCEL"               = "Cancel";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "No";
+"ALERT_BUTTON_YES"                  = "Yes";
+"ALERT_BUTTON_IGNORE"               = "Skip it";
+"ALERT_BUTTON_RECONNECT"            = "Reconnect";
+
+"ALERT_NIMBUS_ERROR_500"            = "Cannot connect to «szCloud» (authentication error). Please, check your settings.";

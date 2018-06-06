@@ -1,0 +1,27 @@
+/******************************************************************************/
+/*                                                                            */
+/*  szCloud                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"SETTINGS_EDIT_FORM_TITLE"          = "Instellingen";
+"SETTINGS_CANCEL_BUTTON"            = "Verlaten";
+"SETTINGS_SUBMIT_BUTTON"            = "Accepteren";
+
+"STATUS_COMMUNICATING_NIMBUS"       = "Communiceren szCloud...";
+"STATUS_OK"                         = "IP-adres bijgewerkt op szCloud op %@ om %@";
+"STATUS_NIMBUS_ERROR"               = "Log in om «szCloud» is mislukt (authenticatie fout). Laatst probeerd op %@ om %@. Controleer uw instellingen.";
+
+"ALERT_TITLE_CONFIRMATION"          = "Bevestigen";
+"ALERT_TITLE_WARNING"               = "Waarschuwing";
+"ALERT_TITLE_ERROR"                 = "Fout";
+"ALERT_BUTTON_CANCEL"               = "Afbreken";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "Geen";
+"ALERT_BUTTON_YES"                  = "Ja";
+"ALERT_BUTTON_IGNORE"               = "Negeren";
+"ALERT_BUTTON_RECONNECT"            = "Aansluiten";
+
+"ALERT_NIMBUS_ERROR_500"            = "Log in om «szCloud» is mislukt (authenticatie fout). Controleer uw instellingen.";

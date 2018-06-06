@@ -1,0 +1,27 @@
+/******************************************************************************/
+/*                                                                            */
+/*  szCloud                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"SETTINGS_EDIT_FORM_TITLE"          = "Paramètres";
+"SETTINGS_CANCEL_BUTTON"            = "Abandonner";
+"SETTINGS_SUBMIT_BUTTON"            = "Appliquer";
+
+"STATUS_COMMUNICATING_NIMBUS"       = "Communiquer szCloud...";
+"STATUS_OK"                         = "Adresse IP mise à jour le szCloud %@ à %@";
+"STATUS_NIMBUS_ERROR"               = "Connexion à «szCloud» a échoué (erreur d'authentification). Dernière essayé lundi %@ à %@. Vérifier vos paramètres s'il vous plaît.";
+
+"ALERT_TITLE_CONFIRMATION"          = "Confirmer";
+"ALERT_TITLE_WARNING"               = "Avertissement";
+"ALERT_TITLE_ERROR"                 = "Erreur";
+"ALERT_BUTTON_CANCEL"               = "Annuler";
+"ALERT_BUTTON_OK"                   = "Bien";
+"ALERT_BUTTON_NO"                   = "Non";
+"ALERT_BUTTON_YES"                  = "Oui";
+"ALERT_BUTTON_IGNORE"               = "Ignorer";
+"ALERT_BUTTON_RECONNECT"            = "Restaurer";
+
+"ALERT_NIMBUS_ERROR_500"            = "Connexion à «szCloud» a échoué (erreur d'authentification). Vérifier vos paramètres s'il vous plaît.";

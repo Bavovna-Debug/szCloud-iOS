@@ -1,0 +1,27 @@
+/******************************************************************************/
+/*                                                                            */
+/*  szCloud                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"SETTINGS_EDIT_FORM_TITLE"          = "Налаштування";
+"SETTINGS_CANCEL_BUTTON"            = "Скасувати";
+"SETTINGS_SUBMIT_BUTTON"            = "Прийняти";
+
+"STATUS_COMMUNICATING_NIMBUS"       = "Зв'язок з szCloud...";
+"STATUS_OK"                         = "IP адресу оновлено у szCloud %@ о %@";
+"STATUS_NIMBUS_ERROR"               = "Неможливо зареєструватись у «szCloud» (помилка аутентифікації). Остання спроба %@ о %@. Будь ласка, перевірте Ваші налаштування.";
+
+"ALERT_TITLE_CONFIRMATION"          = "Підтвердіть";
+"ALERT_TITLE_WARNING"               = "Попередження";
+"ALERT_TITLE_ERROR"                 = "Помилка";
+"ALERT_BUTTON_CANCEL"               = "Відміна";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "Ні";
+"ALERT_BUTTON_YES"                  = "Так";
+"ALERT_BUTTON_IGNORE"               = "Ігнорувати";
+"ALERT_BUTTON_RECONNECT"            = "Відновити";
+
+"ALERT_NIMBUS_ERROR_500"            = "Неможливо зареєструватись у «szCloud» (помилка аутентифікації). Будь ласка, перевірте Ваші налаштування.";
