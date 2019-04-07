@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="90U-5u-Yuc">
-                                <rect key="frame" x="37" y="225.5" width="300" height="136"/>
+                                <rect key="frame" x="37.5" y="225.5" width="300" height="136"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrafficLightsFrame" translatesAutoresizingMaskIntoConstraints="NO" id="CPQ-Ic-Huc">
                                         <rect key="frame" x="8" y="8" width="44" height="120"/>
@@ -167,20 +166,17 @@
                             <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZP-Je-9WP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjB-ba-k37" userLabel="Form View">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="598"/>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EjB-ba-k37" userLabel="Form View">
+                                        <rect key="frame" x="0.0" y="44" width="1009.5" height="598"/>
                                         <subviews>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qxT-Hk-e47" userLabel="Login Name View" customClass="SettingsEditSubview">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qxT-Hk-e47" userLabel="Login Name View" customClass="SettingsEditSubview">
+                                                <rect key="frame" x="0.0" y="0.0" width="1009.5" height="96"/>
                                                 <subviews>
-                                                    <view tag="1" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQt-sk-LOJ" userLabel="Input View">
-                                                        <rect key="frame" x="0.0" y="8" width="375" height="34"/>
+                                                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQt-sk-LOJ" userLabel="Input View">
+                                                        <rect key="frame" x="0.0" y="8" width="1009.5" height="34"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="szCloud login name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlc-Ge-nu1" userLabel="Login Name Label">
-                                                                <rect key="frame" x="8" y="9" width="128" height="17"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="128" id="pcV-d1-D99"/>
-                                                                </constraints>
+                                                                <rect key="frame" x="8" y="8.5" width="131" height="17"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -194,6 +190,7 @@
                                                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="nlc-Ge-nu1" firstAttribute="leading" secondItem="YQt-sk-LOJ" secondAttribute="leading" constant="8" id="2GI-4r-3NK"/>
+                                                            <constraint firstItem="CCG-Ij-RST" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nlc-Ge-nu1" secondAttribute="trailing" constant="5" id="9q4-t4-9By"/>
                                                             <constraint firstAttribute="height" constant="34" id="AdG-A5-Xgk"/>
                                                             <constraint firstItem="nlc-Ge-nu1" firstAttribute="centerY" secondItem="YQt-sk-LOJ" secondAttribute="centerY" id="N06-pT-Osw"/>
                                                             <constraint firstAttribute="trailing" secondItem="CCG-Ij-RST" secondAttribute="trailing" constant="4" id="OYx-Wj-bJK"/>
@@ -201,8 +198,8 @@
                                                             <constraint firstItem="CCG-Ij-RST" firstAttribute="centerY" secondItem="YQt-sk-LOJ" secondAttribute="centerY" id="vkI-Lz-THO"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your szCloud username (from your user account on szCloud)." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fx-aa-1Wb" userLabel="Description">
-                                                        <rect key="frame" x="8" y="46" width="359" height="46"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your szCloud username (from your user account on szCloud)." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fx-aa-1Wb" userLabel="Description">
+                                                        <rect key="frame" x="16" y="46" width="985.5" height="46"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -220,17 +217,14 @@
                                                     <constraint firstAttribute="trailing" secondItem="7Fx-aa-1Wb" secondAttribute="trailing" constant="8" id="rvf-pW-LQy"/>
                                                 </constraints>
                                             </view>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q6o-ba-tqE" userLabel="DNS Name View" customClass="SettingsEditSubview">
-                                                <rect key="frame" x="0.0" y="104" width="375" height="96"/>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6o-ba-tqE" userLabel="DNS Name View" customClass="SettingsEditSubview">
+                                                <rect key="frame" x="0.0" y="104" width="1009.5" height="96"/>
                                                 <subviews>
-                                                    <view tag="1" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uDo-eE-JZT" userLabel="Input View">
-                                                        <rect key="frame" x="0.0" y="16" width="375" height="34"/>
+                                                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDo-eE-JZT" userLabel="Input View">
+                                                        <rect key="frame" x="0.0" y="16" width="1009.5" height="34"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DNS name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f17-1N-0GC" userLabel="DNS Name Label">
-                                                                <rect key="frame" x="8" y="9" width="128" height="17"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="128" id="wvS-z7-6ac"/>
-                                                                </constraints>
+                                                                <rect key="frame" x="8" y="8.5" width="72.5" height="17"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -245,14 +239,15 @@
                                                         <constraints>
                                                             <constraint firstItem="f17-1N-0GC" firstAttribute="leading" secondItem="uDo-eE-JZT" secondAttribute="leading" constant="8" id="02Q-sY-aqb"/>
                                                             <constraint firstItem="f17-1N-0GC" firstAttribute="centerY" secondItem="uDo-eE-JZT" secondAttribute="centerY" id="9ZQ-fi-onK"/>
+                                                            <constraint firstItem="TPS-PD-J1m" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="f17-1N-0GC" secondAttribute="trailing" constant="8" symbolic="YES" id="EdD-XK-SV6"/>
                                                             <constraint firstItem="TPS-PD-J1m" firstAttribute="leading" secondItem="uDo-eE-JZT" secondAttribute="leading" constant="144" id="Rq7-jr-Ev5"/>
                                                             <constraint firstItem="TPS-PD-J1m" firstAttribute="centerY" secondItem="uDo-eE-JZT" secondAttribute="centerY" id="e5J-LN-EXL"/>
                                                             <constraint firstAttribute="trailing" secondItem="TPS-PD-J1m" secondAttribute="trailing" constant="4" id="glJ-N0-SgE"/>
                                                             <constraint firstAttribute="height" constant="34" id="jU3-qj-i49"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gu-G3-saQ" userLabel="Description">
-                                                        <rect key="frame" x="8" y="46" width="359" height="46"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gu-G3-saQ" userLabel="Description">
+                                                        <rect key="frame" x="16" y="46" width="985.5" height="46"/>
                                                         <string key="text">As a DNS name you can give either the name of your cloud (for example royaume.capillatus.net) or full name of a host in your cloud (for example reine.royaume.capillatus.net).</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -271,17 +266,14 @@
                                                     <constraint firstItem="7Gu-G3-saQ" firstAttribute="top" secondItem="q6o-ba-tqE" secondAttribute="top" constant="46" id="yRT-ee-aWz"/>
                                                 </constraints>
                                             </view>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7v-SI-J4H" userLabel="DDNS Password View" customClass="SettingsEditSubview">
-                                                <rect key="frame" x="0.0" y="208" width="375" height="96"/>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7v-SI-J4H" userLabel="DDNS Password View" customClass="SettingsEditSubview">
+                                                <rect key="frame" x="0.0" y="208" width="1009.5" height="96"/>
                                                 <subviews>
-                                                    <view tag="1" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZJ-ya-pY3" userLabel="Input View">
-                                                        <rect key="frame" x="0.0" y="8" width="375" height="34"/>
+                                                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TZJ-ya-pY3" userLabel="Input View">
+                                                        <rect key="frame" x="0.0" y="8" width="1009.5" height="34"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DDNS password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JiP-pj-3Kt" userLabel="DDNS Password Label">
-                                                                <rect key="frame" x="8" y="9" width="128" height="17"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="128" id="I5G-9o-fgH"/>
-                                                                </constraints>
+                                                                <rect key="frame" x="8" y="8.5" width="109" height="17"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -294,6 +286,7 @@
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
+                                                            <constraint firstItem="LX5-hn-xeX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JiP-pj-3Kt" secondAttribute="trailing" constant="8" symbolic="YES" id="09I-TU-J9x"/>
                                                             <constraint firstItem="LX5-hn-xeX" firstAttribute="leading" secondItem="TZJ-ya-pY3" secondAttribute="leading" constant="144" id="Osb-PQ-FHw"/>
                                                             <constraint firstAttribute="height" constant="34" id="SbM-9W-IaE"/>
                                                             <constraint firstItem="LX5-hn-xeX" firstAttribute="centerY" secondItem="TZJ-ya-pY3" secondAttribute="centerY" id="aNP-R7-d2v"/>
@@ -302,8 +295,8 @@
                                                             <constraint firstAttribute="trailing" secondItem="LX5-hn-xeX" secondAttribute="trailing" constant="4" id="rGW-kT-36z"/>
                                                         </constraints>
                                                     </view>
-                                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jN-Ap-gW4" userLabel="Description">
-                                                        <rect key="frame" x="8" y="46" width="359" height="46"/>
+                                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jN-Ap-gW4" userLabel="Description">
+                                                        <rect key="frame" x="8" y="46" width="993.5" height="46"/>
                                                         <string key="text">Enter the password that you have set as DDNS password for the corresponding cloud or host.
 
 ATTENTION: For security reasons, we recommend you to use different passwords for your account in szCloud and for DDNS services.</string>
